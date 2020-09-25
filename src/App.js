@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import Car from "./Car";
 import Table from "./Table";
+import User from "./User";
 import "./App.css";
 class App extends React.Component {
   constructor(props) {
@@ -10,7 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Table />
+        <User />
       </div>
     );
   }
