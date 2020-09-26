@@ -4,7 +4,9 @@ export default class Greeting extends Component {
   render() {
     return (
       <div>
-        <h1>Hello {this.props.name}</h1>
+        <h1>
+          Hello {this.props.userInfo.firstName} {this.props.userInfo.lastName}!
+        </h1>
       </div>
     );
   }

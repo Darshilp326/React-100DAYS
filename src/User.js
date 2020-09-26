@@ -3,10 +3,13 @@ import Greeting from "./Greeting";
 
 export default class User extends Component {
   render() {
-    const name = "Darshil";
+    const userInfo = {
+      firstName: "Darshil",
+      lastName: "Patel",
+    };
     return (
       <div>
-        <Greeting name={name} />
+        <Greeting userInfo={userInfo} />
       </div>
     );
   }
