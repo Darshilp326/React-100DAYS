@@ -1,20 +1,24 @@
 import React from "react";
 import logo from "./logo.svg";
-import Car from "./Car";
-import Table from "./Table";
-import User from "./User";
-//import "./App.css";
+import "./App.css";
 class App extends React.Component {
   constructor(props) {
     super(props);
+    this.state = { text: "Subcribe please!" };
   }
+  changeState = (e) => {
+    this.setState({
+      text: "Subscribed!",
+    });
+  };
   render() {
     return (
       <div>
-        <User />
+        <button type="button" onClick={this.changeState}>
+          {this.state.text}
+        </button>
       </div>
     );
   }
 }
-
 export default App;
