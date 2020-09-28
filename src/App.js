@@ -8,7 +8,7 @@ class App extends React.Component {
   }
   changeState = (e) => {
     this.setState({
-      text: "Subscribed!",
+      name: "Subscribed!",
     });
   };
   render() {
