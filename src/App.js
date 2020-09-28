@@ -4,18 +4,18 @@ import "./App.css";
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { text: "Subcribe please!" };
+    this.state = { name: "Darshil Patel" };
   }
   changeState = (e) => {
     this.setState({
-      name: "Subscribed!",
+      name: "Virat Kohli",
     });
   };
   render() {
     return (
       <div>
         <button type="button" onClick={this.changeState}>
-          {this.state.text}
+          {this.state.name}
         </button>
       </div>
     );
