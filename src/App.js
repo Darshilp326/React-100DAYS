@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Constructor from "./Constructor";
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -14,9 +15,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <button type="button" onClick={this.changeState}>
-          {this.state.name}
-        </button>
+        <Constructor name="Darshil" />
       </div>
     );
   }
