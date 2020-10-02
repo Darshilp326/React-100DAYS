@@ -1,12 +1,12 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import GetDerivedStateFromProps from "./GetDerivedStateFromProps";
+import Header from "./Header";
 class App extends React.Component {
   render() {
     return (
       <div>
-        <GetDerivedStateFromProps />
+        <Header />
       </div>
     );
   }
