@@ -8,7 +8,7 @@ export default class Header extends Component {
     };
   }
   componentDidMount() {
-    setInterval(() => this.setState({ color: "yellow" }), 1000);
+    setInterval(() => this.setState({ color: "yellow" }), 5000);
   }
   render() {
     return (
