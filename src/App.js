@@ -1,12 +1,12 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./Header";
+import RenderList from "./RenderList";
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <RenderList />
       </div>
     );
   }
