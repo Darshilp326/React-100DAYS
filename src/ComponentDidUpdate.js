@@ -12,7 +12,7 @@ export default class ComponentDidUpdate extends Component {
   }
   componentDidUpdate() {
     document.getElementById("div2").innerHTML =
-      "Favourite color after updating is" + this.state.favColor;
+      " Updated Favourite color after updating is" + this.state.favColor;
   }
   render() {
     return (
