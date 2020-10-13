@@ -1,12 +1,12 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import FormValidation from "./FormValidation";
+import Day25Parent from "./Day25Parent";
 class App extends React.Component {
   render() {
     return (
       <div>
-        < FormValidation/>
+        < Day25Parent/>
       </div>
     );
   }
